@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/attackpatern" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="452dp">
+
+    <TableRow
+        android:layout_width="298dp"
+        android:layout_height="292dp">
+
+        <Button
+            android:id="@+id/strong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강" />
+
+        <Button
+            android:id="@+id/middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="중" />
+
+        <Button
+            android:id="@+id/weak"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="약" />
+        <Button
+            android:id="@+id/END"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="강약약강강강약강중약"/>
+    </TableRow>
+    </TableLayout>
+</LinearLayout>

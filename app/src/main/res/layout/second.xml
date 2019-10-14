@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/newId"
+        android:layout_width="120sp"
+        android:layout_height="24sp"
+        android:hint="ID"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/newPassword"
+        android:layout_width="120sp"
+        android:layout_height="24sp"
+        android:hint="Password"
+        android:inputType="text" />
+    <TextView
+        android:layout_width="400sp"
+        android:layout_height="wrap_content"
+        android:text="이하는 약관 내용입니다.">
+    </TextView>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="동의" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="비동의"/>
+    </RadioGroup>
+</LinearLayout>
